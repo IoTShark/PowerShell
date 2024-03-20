@@ -18,7 +18,7 @@ try {
 		Set-Location "$Path"
 		"📂$Path"
 	}
-	throw "User's home folder at 📂$Path doesn't exist (yet)"
+ 	
 } catch {
 	"⚠️ Error in line $($_.InvocationInfo.ScriptLineNumber): $($Error[0])"
 }
